@@ -30,6 +30,7 @@ const App = () => {
       ) : (
         <Login onLogin={handleLogin} />
       )}
+      {/* <Table data={data} /> */}
     </div>
   );
 };
